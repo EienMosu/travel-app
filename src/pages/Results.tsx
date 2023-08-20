@@ -14,7 +14,7 @@ const Results: React.FC = () => {
 
   const searchParams = new URLSearchParams(location.search);
   const initialFormValues = searchParamsToFormValues(searchParams);
-  const travelData = useMemo(() => initialFormValues, [location.search]);
+  const travelData = useMemo(() => initialFormValues, [ initialFormValues]);
 
   const citiesInRoute = useMemo(
     () =>
