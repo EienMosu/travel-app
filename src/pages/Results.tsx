@@ -14,6 +14,7 @@ const Results: React.FC = () => {
 
   const searchParams = new URLSearchParams(location.search);
   const initialFormValues = searchParamsToFormValues(searchParams);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const travelData = useMemo(() => initialFormValues, [location.search]);
 
   const citiesInRoute = useMemo(
