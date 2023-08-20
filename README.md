@@ -1,6 +1,3 @@
-
-Got it. Here's the updated README with your repository URL:
-
 🚀 React Travel Application
 You can test the live version of the application here: https://main--lucent-salmiakki-357c84.netlify.app/
 
